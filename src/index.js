@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+//App is the root app component >> it';s getting put intothe root div via function below
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//this is what is getting injected into the html
 ReactDOM.render(
   <React.StrictMode>
     <App />

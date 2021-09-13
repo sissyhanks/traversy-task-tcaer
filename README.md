@@ -1,3 +1,11 @@
+# task tracker app
+
+This project was built following the Traversy Media [React JS Crash Course 2021](https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=974s).
+
+## Notes and Resources
+
+I reached my first stumbling block when after running `npm start` the progressive web app I was working on that was also hosted on port 3000 would launch. Clearing my cache fixed that issue.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

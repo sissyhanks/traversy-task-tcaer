@@ -1,23 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+//everything on the page is coming from this function >> its JSX difference is like className instead of class things like that >> dynamically add JS expressions {{ ya know }}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //you can only return a single parent element >> you can use <> </> as parent if you don't want a div wrapping around things
+    <div className="container">
+      <h1>Hello From React</h1>
     </div>
   );
 }
