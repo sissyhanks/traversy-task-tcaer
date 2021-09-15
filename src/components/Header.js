@@ -11,7 +11,8 @@ const Header = (props) => {
   return (
     <header className='header'>
       <h1>{props.title}</h1>
-      <Button />
+      {/* props are taken into the Button element, set up in the component function */}
+      <Button color='green' text='hello' />
     </header>
   )
 }
