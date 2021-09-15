@@ -8,11 +8,15 @@ import Button from './Button'
 
 
 const Header = (props) => {
+  const onClick = () => {
+    console.log('click')
+  }
   return (
     <header className='header'>
       <h1>{props.title}</h1>
       {/* props are taken into the Button element, set up in the component function */}
-      <Button color='green' text='hello' />
+      {/* also passing in click button function */}
+      <Button color='green' text='hello' onClick={onClick} />
     </header>
   )
 }
